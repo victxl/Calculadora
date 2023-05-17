@@ -210,7 +210,7 @@ btnraiz.addEventListener('click', () => {
     n1 = parseFloat(texto);
     texto = '';
     operacao = 'raiz';
-    document.getElementById('idresult').innerHTML = '√'+texto;
+    document.getElementById('idresult').innerHTML = texto;
 
 });
 
